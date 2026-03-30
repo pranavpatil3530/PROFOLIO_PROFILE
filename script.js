@@ -177,7 +177,7 @@
   if (resumeBtn) {
     resumeBtn.addEventListener("click", () => {
       const a = document.createElement("a");
-      a.href = "resume.pdf.pdf";
+      a.href = "resume.pdf";
       a.download = "PRANAV_NANDKUMAR_PATIL_RESUME.pdf";
       document.body.appendChild(a);
       a.click();
